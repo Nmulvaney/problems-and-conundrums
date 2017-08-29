@@ -1,1 +1,21 @@
-
+/* Nate Mulvaney
+Produced 8/29/17
+The explanation of this drawing is the use of color in 
+all hues, saturation, and brightness to create a colorful paradise. 
+I tried to use some of the elements of code such as efficiency, elegance, and 
+to make it legible to be able to read easily. 
+*/
+void setup(){
+  size(100,100);
+}
+void draw(){
+  background (0);
+  colorMode(HSB, 360,100,100);
+  blendMode(ADD);
+  // the code above this comment sets the background color, and the color mode//
+  fill(0,90,100,150);
+  ellipse(40,40,40,40);
+  fill(90,90,100,150);
+  ellipse(60,40,40,40);
+  fill(180,90,100,150);
+  ellipse(50,55,40,40);}
