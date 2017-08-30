@@ -1,5 +1,10 @@
 void setup(){
-  size(200,200);
+  size(400,400);
+/* the void in this sketch is large so that all of the hues of the color wheel
+are portrayed (360 degrees on the color wheel). Also, the saturation of the colors
+, potrayed with the vertical movement, can be shown, as well as the brigthness of the
+colors, which is altered by the mouse's hoizontal movement. 
+*/
 }
 void draw(){
   noStroke();
@@ -7,4 +12,6 @@ void draw(){
   fill(mouseX, mouseY, mouseX);
   //this fill function says that the HSB of the color depends on the mouse's location//
   rect(mouseX, mouseY, 30,30);
+//Tip:if you shift the mouse horizontally, you will begin to see the color spectrum
+//
 }
